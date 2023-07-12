@@ -8,6 +8,7 @@ import { BsCart } from 'react-icons/bs';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { VscChromeClose } from 'react-icons/vsc';
 import MenuMobile from './MenuMobile';
+import cart from '@/pages/cart';
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -67,6 +68,7 @@ const Header = () => {
 
           </div>
           {/*icon end  */}
+          <Link href="/cart">
           <div className='w-8 md:w-12 h-8 md:h-8
             rounded-full flex justify-center items-center
             hover:bg-black/[0.05] cursor-pointer relative'>
@@ -77,6 +79,7 @@ const Header = () => {
              flex justify-center items-center'>5</div>
 
           </div>
+          </Link>
           {/*icon end  */}
           {/*mobile icon start  */}
            <div  className='w-8 md:w-12 h-8 md:h-8 md:hidden 

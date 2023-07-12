@@ -8,11 +8,11 @@ const ProductCard = () => {
             <div className='p-4 text-black/[0.9]'>
                 <h2 className='text-lg font-medium '>Product Name</h2>
                 <div className='flex items-center text-black/[0.5]'>
-                <p className='mr-2 text-lg font-semibold'>$20.00</p>
-                <p className='line-through font-medium text-base'>$20.00</p>
-                <p className='ml-auto text-base font-medium text-green-500'>
-                20% off
-                </p>
+                         <p className='mr-2 text-lg font-semibold'>$20.00</p>
+                    <p className='line-through font-medium text-base'>$75.00</p>
+                    <p className='ml-auto text-base font-medium text-green-500'>
+                        20% off
+                    </p>
                 </div>
             </div>
         </Link>
